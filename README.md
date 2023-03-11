@@ -1,5 +1,4 @@
 # Crtscrapper
-A tool to scrape out subdomains from crt.sh 
 This tool simply captures the response from crt.sh site for a particular search result and filters out only the website as results.  
 
 # Usage:
