@@ -4,12 +4,12 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 
-domain = "%25." + sys.argv[1]
+domain = "" + sys.argv[1]
 url = "https://crt.sh/?q=" + domain
 
-print("Finding subdomains from crt.sh for" domain)
+print("Finding subdomains from crt.sh for " +domain)
 
-res = request.get(url)
+res = requests.get(url)
 
 print("Extracting Subdomains")
 soup = BeautifulSoup(res.content, "html.parser")
