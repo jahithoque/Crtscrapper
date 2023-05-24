@@ -4,4 +4,4 @@ This tool simply captures the response from crt.sh site for a particular search 
 # Usage:
 python3 crtscapper.py example.com
 
-python3 crtscrapper.py example.com >output.txt
+python3 crtscrapper.py example.com
